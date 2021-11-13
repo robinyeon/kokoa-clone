@@ -1,3 +1,3 @@
 # 🟨 Kokoa Clone 🟨
 
-Practice CSS by cloning Kakao Talk (only on HTML and CSS)
+Practice CSS by cloning KakaoTalk (only on HTML and CSS)
