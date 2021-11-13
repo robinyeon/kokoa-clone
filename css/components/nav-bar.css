@@ -14,5 +14,18 @@
 }
 
 .nav__link {
-  color: #2f363e;
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__ellipsis__notification {
+  position: absolute;
+  right: -5px;
+  top: -11px;
 }

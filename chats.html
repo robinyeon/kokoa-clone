@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kokoa Talk</title>
+    <title>Chats - Kokoa Talk</title>
     <script src="https://kit.fontawesome.com/8b8c0d1160.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,11 +25,16 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span>
                 <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+            </span>
+            <span>
+                <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                   </svg>
             </span>
             <span>
@@ -46,44 +51,19 @@
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="https://avatars.githubusercontent.com/u/85475577?v=4"
-                class="user-component__avatar user-component__avatar--xl"/>
+                class="user-component__avatar "/>
                 <div class="user-component__text">
                     <h4 class="user-component__title">Laphoo</h4>
-                    <!-- <h6 class="user-component__subtitle">the cutest dog in the world</h6> -->
+                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
                 </div>
             </div>
-            <div class="user-component__column"></div>
-        </div>
-
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://avatars.githubusercontent.com/u/85475577?v=4"
-                    class="user-component__avatar user-component__avatar--sm"/>
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                   <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                   </div>
-                </div>
+            <div class="user-component__column">
+                <span class="user-component__time">02:23</span>
+                <div class="badge">1</div>
             </div>
         </div>
     </main>
@@ -93,13 +73,13 @@
        <ul class="nav__list">
            <li class="nav__btn">
                <a class="nav__link" href="friends.html">
-                   <i class="fas fa-user fa-2x"></i>
+                <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
            <li class="nav__btn">
                <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span> 
-                   <i class="far fa-comment fa-2x"></i>
+                    <i class="fas fa-comment fa-2x"></i>
                 </a>
             </li>
            <li class="nav__btn">

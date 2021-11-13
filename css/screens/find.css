@@ -1,0 +1,123 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+
+.find-icons__icon span {
+  margin-top: 15px;
+}
+
+.recommended-friends {
+  /* margin: 25px 0px; */
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 15px;
+  color: var(--grey);
+}
+
+.recommended-friends span {
+  margin: 100px 0px;
+  text-align: center;
+  display: block;
+  color: var(--grey);
+  font-size: 19px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey);
+  margin: 15px 0px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-post__column:first-child {
+  margin-top: 15px;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  color: var(--grey);
+  text-transform: uppercase;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__member-count {
+  color: var(--grey);
+  font-size: 15px;
+}
+
+/* 'divider'가 open-post말고도 다른곳에서 또 쓰일 수 있으니 이렇게 표기 */
+.open-post__members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: var(--grey);
+  margin: 0px 6px;
+}
+
+.open-post__member-status {
+  color: #ffb0c0;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 9px;
+  right: 5px;
+}
+
+.open-post__heart-count span {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 4px;
+}

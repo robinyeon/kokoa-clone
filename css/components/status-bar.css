@@ -2,7 +2,11 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  position: fixed;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
 }
 
@@ -11,6 +15,7 @@
 }
 
 .status-bar__column:first-child span {
+  margin-left: 4px;
   margin-right: 5px;
 }
 
