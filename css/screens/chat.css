@@ -1,0 +1,8 @@
+#chat-screen {
+    background-color: #ABC1D1;
+    height: 1000vh;
+}
+
+#chat-screen .fa-search {
+    margin-right: 20px;
+}
