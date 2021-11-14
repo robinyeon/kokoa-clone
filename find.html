@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find - Kokoa Talk</title>
     <script src="https://kit.fontawesome.com/8b8c0d1160.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
@@ -28,35 +30,42 @@
         <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span>
-                <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
             </span>
             <span class="screen-header__icons__config">
-                <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span class="screen-header__config-notification dot-badge"> </span>
+                <a href="settings.html">
+                    <svg width="35px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span class="screen-header__config-notification dot-badge"> </span>
+                </a>
             </span>
         </div>
     </header>
 
     <main class="main-screen">
-        <div class="find-icons">
-            <div class="find-icons__icon">
+        <div class="icon-row">
+            <div class="icon-row__icon">
                 <i class="fas fa-qrcode"></i>
                 <span>QR Code</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="far fa-address-book"></i>
                 <span>Add by Contacts</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="fas fa-fingerprint"></i>
                 <span>Add by ID</span>
             </div>
-            <div class="find-icons__icon">
+            <div class="icon-row__icon">
                 <i class="far fa-envelope"></i>
                 <span>Invite</span>
             </div>
@@ -66,7 +75,7 @@
             <h6 class="recommended-friends__title">Recommended Friends</h6>
             <span>You have no recommended friends.</span>
         </div>
-    
+
         <div class="open-chat">
             <div class="open-chat__header">
                 <h4 class="open-chat__title">Open Chat</h4>
@@ -80,7 +89,8 @@
                     <h5 class="open-post__title">#Poodle</h5>
                     <h6 class="open-post__hashtags">#poodle#dontbuyadopt</h6>
                     <div class="open-post__members">
-                        <img src="https://user-images.githubusercontent.com/85475577/141645116-016fb44f-d54b-4054-9181-038893fc0e97.png"/>
+                        <img
+                            src="https://user-images.githubusercontent.com/85475577/141645116-016fb44f-d54b-4054-9181-038893fc0e97.png" />
                         <span class="open-post__member-count">1109 members</span>
                         <div class="divider"></div>
                         <span class="open-post__member-status">Active</span>
@@ -88,42 +98,74 @@
                 </div>
                 <div class="open-post__column">
                     <div class="open-post__photo">
-                        <img src="https://user-images.githubusercontent.com/85475577/141645678-fde2527c-da33-49aa-82f8-f777dbe8fa4c.jpg"/>
+                        <img
+                            src="https://user-images.githubusercontent.com/85475577/141645678-fde2527c-da33-49aa-82f8-f777dbe8fa4c.jpg" />
                         <div class="open-post__heart-count"><i class="fas fa-heart fa-xs"><span>223</span></i></div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4 class="open-chat__title">Open Chat</h4>
+                <span>
+                    Go to Openchat Home
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#Laphoo</h5>
+                    <h6 class="open-post__hashtags">#doggy#thecutest</h6>
+                    <div class="open-post__members">
+                        <img
+                            src="https://user-images.githubusercontent.com/85475577/141670703-71ff1a3c-53f2-4e4e-818b-066f5f2127d9.jpg" />
+                        <span class="open-post__member-count">223 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img
+                            src="https://user-images.githubusercontent.com/85475577/141670587-bca85f90-8532-49df-8f08-8e892112b043.JPG" />
+                        <div class="open-post__heart-count"><i class="fas fa-heart fa-xs"><span>119</span></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    
 
 
-   <nav class="nav">
-       <ul class="nav__list">
-           <li class="nav__btn">
-               <a class="nav__link" href="friends.html">
-                <i class="far fa-user fa-2x"></i>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
-           <li class="nav__btn">
-               <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span> 
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
                     <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
-           <li class="nav__btn">
-               <a class="nav__link" href="find.html">
-                   <i class="fas fa-search fa-2x"></i>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
                 </a>
             </li>
-           <li class="nav__btn">
-               <a class="nav__link" href="more.html">
-                   <span class="nav__ellipsis__notification dot-badge"> </span>
-                   <i class="fas fa-ellipsis-h fa-2x"></i>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis__notification dot-badge"> </span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
                 </a>
             </li>
-       </ul>
-   </nav>
+        </ul>
+    </nav>
 
 </body>
+
 </html>
