@@ -6,3 +6,76 @@
 #chat-screen .fa-search {
     margin-right: 20px;
 }
+
+#chat-screen .status-bar {
+    background-color: #ABC1D1;
+}
+
+.main-chat {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: rgba(255,255,255, 0.8);
+    background-color: #92A4B2;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.message-row {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.message-row img {
+    width: 53px;
+    height: 53px;
+    border-radius: 20px;
+    margin-right: 10px
+}
+
+.message__author {
+    opacity: 0.8;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.message__time {
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.message-row__own {
+    justify-content: flex-end;
+}
+
+.message-row__own .message__bubble {
+    border-radius: 18px;
+    border-top-right-radius: 0px;
+    background-color: var(--yellow);
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.message-row__own .message__info {
+    flex-direction: row-reverse;
+}
