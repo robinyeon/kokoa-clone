@@ -79,3 +79,62 @@
 .message-row__own .message__info {
     flex-direction: row-reverse;
 }
+
+.reply {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.reply .reply__column:first-child{
+    width: 10%;
+}
+
+.reply__column:first-child i {
+    color: var(--grey);
+}
+
+.reply .reply__column:last-child{ 
+width: 90%;
+position: relative;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+    position:absolute;
+    right: -15px;
+    top: 2.5px;
+}
+
+.reply input {
+    height: 30px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.reply__column:last-child > i {
+    right: 25px;
+    top: 10px;
+    color: var(--grey);
+}
+
+.reply__column button {
+    background-color: var(--yellow);
+    border: none;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
+}
